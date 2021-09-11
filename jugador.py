@@ -8,15 +8,15 @@ from premio import Premio
 from baseDatos import Base
 
 print('''
-Bienvenido al juego "Pon a prueba tus matematicas"
-Juego dirigido a niños
+Bienvenido al juego "Pon a prueba tus matematicas de sexto grado"
+Juego dirigido a niños entre la edad de 11 y 13. 
 Consta de 5 rondas con niveles de dificultades ascendentes,
-las preguntas pueden variar y cada una tiene 4 opciones de 
-respuesta con unica respuesta correcta, tambien contiene una
-opcion de rendirse.
-Si al finalizar el juego sacas un puntaje inferior al que a tenias,
-el SCORE no se actualizara ya que el SCORE guarda tu mejor puntaje.
-Al finalizar se te mostrara el SCORE donde podras ver tu
+las preguntas pueden variar y son de opcion multiple 
+con unica respuesta, tambien contiene una
+opcion adicional de rendirse.
+Si al finalizar el juego sacas un puntaje inferior al que ya tenias,
+el "SCORE" no se actualizara ya que el "SCORE" guarda tu mejor puntaje.
+Al finalizar se te mostrara el "SCORE" donde podras ver tu
 mejor puntuacion y compararla con otros competidores.
 Buena suerte!! 
 

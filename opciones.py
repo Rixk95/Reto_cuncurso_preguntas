@@ -3,8 +3,6 @@ from pregunta import Pregunta
 class Opciones(Pregunta):
     def __init__(self,seccion,numAleatorio):
         super().__init__(seccion,numAleatorio)
-       
-        
     def opcionesPregunta(self):
         a=["A. 37\nB. 27\nC. 29\nD. 39\nE. Rendirse",
         "A. 65\nB. 68\nC. 66\nD. 56\nE. Rendirse",

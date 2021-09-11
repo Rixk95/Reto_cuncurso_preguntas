@@ -4,7 +4,6 @@ class Base:
     def __init__(self,nombre,puntaje):
         self.nombre=nombre
         self.puntaje=puntaje
-
     def identifica(self):
         miConexion=sqlite3.connect("baseDatos")
         miCursor=miConexion.cursor()
@@ -33,7 +32,6 @@ class Base:
             elif bandera==1:
                 if self.puntaje>self.consultaVictorias():
                     self.actualizaDato(self.puntaje)             
-            
     def guardarDato(self,puntaje):
         miConexion=sqlite3.connect("baseDatos")
         miCursor=miConexion.cursor()

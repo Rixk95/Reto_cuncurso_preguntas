@@ -4,7 +4,6 @@ class Evaluador(Pregunta):
     def __init__(self,seccion,numAleatorio,eleccion):
         super().__init__(seccion,numAleatorio)
         self.eleccion=eleccion
-
     def evaluar(self):
         a=["A","C","C","D","B"]
         b=["C","A","B","B","C"]
